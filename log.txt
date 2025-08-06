@@ -1,0 +1,548 @@
+instruction is 0x6a00
+[DEBUG] Decoding instruction: 0x6A00
+[0x6XNN] Set V[10] = 0x00
+instruction is 0x6b04
+[DEBUG] Decoding instruction: 0x6B04
+[0x6XNN] Set V[11] = 0x04
+instruction is 0x6c01
+[DEBUG] Decoding instruction: 0x6C01
+[0x6XNN] Set V[12] = 0x01
+instruction is 0x6d00
+[DEBUG] Decoding instruction: 0x6D00
+[0x6XNN] Set V[13] = 0x00
+instruction is 0x6e02
+[DEBUG] Decoding instruction: 0x6E02
+[0x6XNN] Set V[14] = 0x02
+instruction is 0x2326
+[DEBUG] Decoding instruction: 0x2326
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x326
+instruction is 0x6419
+[DEBUG] Decoding instruction: 0x6419
+[0x6XNN] Set V[4] = 0x19
+instruction is 0x6300
+[DEBUG] Decoding instruction: 0x6300
+[0x6XNN] Set V[3] = 0x00
+instruction is 0xa356
+[DEBUG] Decoding instruction: 0xA356
+[0xANNN] Set I = 0x356
+instruction is 0xd341
+[DEBUG] Decoding instruction: 0xD341
+[0xDXYN] Draw sprite at V[3], V[4], height = 1
+instruction is 0x7308
+[DEBUG] Decoding instruction: 0x7308
+[0x7XNN] Add 0x08 to V[3]
+instruction is 0x3340
+[DEBUG] Decoding instruction: 0x3340
+[0x3XNN] Skip if V[3] == 0x40
+instruction is 0x132c
+[DEBUG] Decoding instruction: 0x132C
+[0x1NNN] Jump to address 0x32C
+instruction is 0x631e
+[DEBUG] Decoding instruction: 0x631E
+[0x6XNN] Set V[3] = 0x1E
+instruction is 0x641b
+[DEBUG] Decoding instruction: 0x641B
+[0x6XNN] Set V[4] = 0x1B
+instruction is 0xfc29
+[DEBUG] Decoding instruction: 0xFC29
+Opcode 0xFX29: LD F, Vx — Set I = location of sprite for digit in Vx
+instruction is 0xd345
+[DEBUG] Decoding instruction: 0xD345
+[0xDXYN] Draw sprite at V[3], V[4], height = 5
+instruction is 0x4b04
+[DEBUG] Decoding instruction: 0x4B04
+[0x4XNN] Skip if V[11] != 0x04
+instruction is 0xa35f
+[DEBUG] Decoding instruction: 0xA35F
+[0xANNN] Set I = 0x35F
+instruction is 0x4b03
+[DEBUG] Decoding instruction: 0x4B03
+[0x4XNN] Skip if V[11] != 0x03
+instruction is 0xa360
+[DEBUG] Decoding instruction: 0xA360
+[0xANNN] Set I = 0x360
+instruction is 0x4b02
+[DEBUG] Decoding instruction: 0x4B02
+[0x4XNN] Skip if V[11] != 0x02
+instruction is 0xa361
+[DEBUG] Decoding instruction: 0xA361
+[0xANNN] Set I = 0x361
+instruction is 0x4b01
+[DEBUG] Decoding instruction: 0x4B01
+[0x4XNN] Skip if V[11] != 0x01
+instruction is 0xa362
+[DEBUG] Decoding instruction: 0xA362
+[0xANNN] Set I = 0x362
+instruction is 0x6301
+[DEBUG] Decoding instruction: 0x6301
+[0x6XNN] Set V[3] = 0x01
+instruction is 0x7402
+[DEBUG] Decoding instruction: 0x7402
+[0x7XNN] Add 0x02 to V[4]
+instruction is 0xd341
+[DEBUG] Decoding instruction: 0xD341
+[0xDXYN] Draw sprite at V[3], V[4], height = 1
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x2320
+[DEBUG] Decoding instruction: 0x2320
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x320
+instruction is 0xa354
+[DEBUG] Decoding instruction: 0xA354
+[0xANNN] Set I = 0x354
+instruction is 0xdde2
+[DEBUG] Decoding instruction: 0xDDE2
+[0xDXYN] Draw sprite at V[13], V[14], height = 2
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x6030
+[DEBUG] Decoding instruction: 0x6030
+[0x6XNN] Set V[0] = 0x30
+instruction is 0x6101
+[DEBUG] Decoding instruction: 0x6101
+[0x6XNN] Set V[1] = 0x01
+instruction is 0xf015
+[DEBUG] Decoding instruction: 0xF015
+Opcode 0xFX15: LD DT, Vx — Set delay timer = Vx
+instruction is 0xf007
+[DEBUG] Decoding instruction: 0xF007
+Opcode 0xFX07: LD Vx, DT — Set Vx = delay timer
+instruction is 0xf118
+[DEBUG] Decoding instruction: 0xF118
+Opcode 0xFX18: LD ST, Vx — Set sound timer = Vx
+instruction is 0x3000
+[DEBUG] Decoding instruction: 0x3000
+[0x3XNN] Skip if V[0] == 0x00
+instruction is 0x1214
+[DEBUG] Decoding instruction: 0x1214
+[0x1NNN] Jump to address 0x214
+instruction is 0x2242
+[DEBUG] Decoding instruction: 0x2242
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x242
+instruction is 0x4c01
+[DEBUG] Decoding instruction: 0x4C01
+[0x4XNN] Skip if V[12] != 0x01
+instruction is 0x226c
+[DEBUG] Decoding instruction: 0x226C
+[DEBUG] Set stack pointer to 0x2
+[0x2NNN] Call subroutine at 0x26C
+instruction is 0x6628
+[DEBUG] Decoding instruction: 0x6628
+[0x6XNN] Set V[6] = 0x28
+instruction is 0x6709
+[DEBUG] Decoding instruction: 0x6709
+[0x6XNN] Set V[7] = 0x09
+instruction is 0x6400
+[DEBUG] Decoding instruction: 0x6400
+[0x6XNN] Set V[4] = 0x00
+instruction is 0x6500
+[DEBUG] Decoding instruction: 0x6500
+[0x6XNN] Set V[5] = 0x00
+instruction is 0x6200
+[DEBUG] Decoding instruction: 0x6200
+[0x6XNN] Set V[2] = 0x00
+instruction is 0x6300
+[DEBUG] Decoding instruction: 0x6300
+[0x6XNN] Set V[3] = 0x00
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x4c02
+[DEBUG] Decoding instruction: 0x4C02
+[0x4XNN] Skip if V[12] != 0x02
+instruction is 0x227a
+[DEBUG] Decoding instruction: 0x227A
+[DEBUG] Set stack pointer to 0x2
+[0x2NNN] Call subroutine at 0x27A
+instruction is 0x6628
+[DEBUG] Decoding instruction: 0x6628
+[0x6XNN] Set V[6] = 0x28
+instruction is 0x670e
+[DEBUG] Decoding instruction: 0x670E
+[0x6XNN] Set V[7] = 0x0E
+instruction is 0x6428
+[DEBUG] Decoding instruction: 0x6428
+[0x6XNN] Set V[4] = 0x28
+instruction is 0x6514
+[DEBUG] Decoding instruction: 0x6514
+[0x6XNN] Set V[5] = 0x14
+instruction is 0x6200
+[DEBUG] Decoding instruction: 0x6200
+[0x6XNN] Set V[2] = 0x00
+instruction is 0x6300
+[DEBUG] Decoding instruction: 0x6300
+[0x6XNN] Set V[3] = 0x00
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x4c03
+[DEBUG] Decoding instruction: 0x4C03
+[0x4XNN] Skip if V[12] != 0x03
+instruction is 0x2288
+[DEBUG] Decoding instruction: 0x2288
+[DEBUG] Set stack pointer to 0x2
+[0x2NNN] Call subroutine at 0x288
+instruction is 0x6628
+[DEBUG] Decoding instruction: 0x6628
+[0x6XNN] Set V[6] = 0x28
+instruction is 0x6707
+[DEBUG] Decoding instruction: 0x6707
+[0x6XNN] Set V[7] = 0x07
+instruction is 0x6428
+[DEBUG] Decoding instruction: 0x6428
+[0x6XNN] Set V[4] = 0x28
+instruction is 0x650c
+[DEBUG] Decoding instruction: 0x650C
+[0x6XNN] Set V[5] = 0x0C
+instruction is 0x6216
+[DEBUG] Decoding instruction: 0x6216
+[0x6XNN] Set V[2] = 0x16
+instruction is 0x6311
+[DEBUG] Decoding instruction: 0x6311
+[0x6XNN] Set V[3] = 0x11
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x4c04
+[DEBUG] Decoding instruction: 0x4C04
+[0x4XNN] Skip if V[12] != 0x04
+instruction is 0x2296
+[DEBUG] Decoding instruction: 0x2296
+[DEBUG] Set stack pointer to 0x2
+[0x2NNN] Call subroutine at 0x296
+instruction is 0x6628
+[DEBUG] Decoding instruction: 0x6628
+[0x6XNN] Set V[6] = 0x28
+instruction is 0x6707
+[DEBUG] Decoding instruction: 0x6707
+[0x6XNN] Set V[7] = 0x07
+instruction is 0x6428
+[DEBUG] Decoding instruction: 0x6428
+[0x6XNN] Set V[4] = 0x28
+instruction is 0x650e
+[DEBUG] Decoding instruction: 0x650E
+[0x6XNN] Set V[5] = 0x0E
+instruction is 0x6216
+[DEBUG] Decoding instruction: 0x6216
+[0x6XNN] Set V[2] = 0x16
+instruction is 0x6314
+[DEBUG] Decoding instruction: 0x6314
+[0x6XNN] Set V[3] = 0x14
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x4c05
+[DEBUG] Decoding instruction: 0x4C05
+[0x4XNN] Skip if V[12] != 0x05
+instruction is 0x22a4
+[DEBUG] Decoding instruction: 0x22A4
+[DEBUG] Set stack pointer to 0x2
+[0x2NNN] Call subroutine at 0x2A4
+instruction is 0x6628
+[DEBUG] Decoding instruction: 0x6628
+[0x6XNN] Set V[6] = 0x28
+instruction is 0x6705
+[DEBUG] Decoding instruction: 0x6705
+[0x6XNN] Set V[7] = 0x05
+instruction is 0x6428
+[DEBUG] Decoding instruction: 0x6428
+[0x6XNN] Set V[4] = 0x28
+instruction is 0x6510
+[DEBUG] Decoding instruction: 0x6510
+[0x6XNN] Set V[5] = 0x10
+instruction is 0x6216
+[DEBUG] Decoding instruction: 0x6216
+[0x6XNN] Set V[2] = 0x16
+instruction is 0x630b
+[DEBUG] Decoding instruction: 0x630B
+[0x6XNN] Set V[3] = 0x0B
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0xa359
+[DEBUG] Decoding instruction: 0xA359
+[0xANNN] Set I = 0x359
+instruction is 0xd672
+[DEBUG] Decoding instruction: 0xD672
+[0xDXYN] Draw sprite at V[6], V[7], height = 2
+instruction is 0x4400
+[DEBUG] Decoding instruction: 0x4400
+[0x4XNN] Skip if V[4] != 0x00
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x2320
+[DEBUG] Decoding instruction: 0x2320
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x320
+instruction is 0xa354
+[DEBUG] Decoding instruction: 0xA354
+[0xANNN] Set I = 0x354
+instruction is 0xdde2
+[DEBUG] Decoding instruction: 0xDDE2
+[0xDXYN] Draw sprite at V[13], V[14], height = 2
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x7d01
+[DEBUG] Decoding instruction: 0x7D01
+[0x7XNN] Add 0x01 to V[13]
+instruction is 0x2320
+[DEBUG] Decoding instruction: 0x2320
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x320
+instruction is 0xa354
+[DEBUG] Decoding instruction: 0xA354
+[0xANNN] Set I = 0x354
+instruction is 0xdde2
+[DEBUG] Decoding instruction: 0xDDE2
+[0xDXYN] Draw sprite at V[13], V[14], height = 2
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x6008
+[DEBUG] Decoding instruction: 0x6008
+[0x6XNN] Set V[0] = 0x08
+instruction is 0xe0a1
+[DEBUG] Decoding instruction: 0xE0A1
+[0xEX??] Key check on V[0], opcode = 0xA1
+instruction is 0x230a
+[DEBUG] Decoding instruction: 0x230A
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x30A
+instruction is 0x4a01
+[DEBUG] Decoding instruction: 0x4A01
+[0x4XNN] Skip if V[10] != 0x01
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x4a00
+[DEBUG] Decoding instruction: 0x4A00
+[0x4XNN] Skip if V[10] != 0x00
+instruction is 0x123e
+[DEBUG] Decoding instruction: 0x123E
+[0x1NNN] Jump to address 0x23E
+instruction is 0xa362
+[DEBUG] Decoding instruction: 0xA362
+[0xANNN] Set I = 0x362
+instruction is 0xd891
+[DEBUG] Decoding instruction: 0xD891
+[0xDXYN] Draw sprite at V[8], V[9], height = 1
+instruction is 0x7901
+[DEBUG] Decoding instruction: 0x7901
+[0x7XNN] Add 0x01 to V[9]
+instruction is 0xd891
+[DEBUG] Decoding instruction: 0xD891
+[0xDXYN] Draw sprite at V[8], V[9], height = 1
+instruction is 0x4f01
+[DEBUG] Decoding instruction: 0x4F01
+[0x4XNN] Skip if V[15] != 0x01
+instruction is 0x12f4
+[DEBUG] Decoding instruction: 0x12F4
+[0x1NNN] Jump to address 0x2F4
+instruction is 0x4918
+[DEBUG] Decoding instruction: 0x4918
+[0x4XNN] Skip if V[9] != 0x18
+instruction is 0x12e4
+[DEBUG] Decoding instruction: 0x12E4
+[0x1NNN] Jump to address 0x2E4
+instruction is 0x22b2
+[DEBUG] Decoding instruction: 0x22B2
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x2B2
+instruction is 0xa359
+[DEBUG] Decoding instruction: 0xA359
+[0xANNN] Set I = 0x359
+instruction is 0xd672
+[DEBUG] Decoding instruction: 0xD672
+[0xDXYN] Draw sprite at V[6], V[7], height = 2
+instruction is 0x76fe
+[DEBUG] Decoding instruction: 0x76FE
+[0x7XNN] Add 0xFE to V[6]
+instruction is 0xd672
+[DEBUG] Decoding instruction: 0xD672
+[0xDXYN] Draw sprite at V[6], V[7], height = 2
+instruction is 0x4400
+[DEBUG] Decoding instruction: 0x4400
+[0x4XNN] Skip if V[4] != 0x00
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x121e
+[DEBUG] Decoding instruction: 0x121E
+[0x1NNN] Jump to address 0x21E
+instruction is 0x4c01
+[DEBUG] Decoding instruction: 0x4C01
+[0x4XNN] Skip if V[12] != 0x01
+instruction is 0x226c
+[DEBUG] Decoding instruction: 0x226C
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x26C
+instruction is 0x6628
+[DEBUG] Decoding instruction: 0x6628
+[0x6XNN] Set V[6] = 0x28
+instruction is 0x6709
+[DEBUG] Decoding instruction: 0x6709
+[0x6XNN] Set V[7] = 0x09
+instruction is 0x6400
+[DEBUG] Decoding instruction: 0x6400
+[0x6XNN] Set V[4] = 0x00
+instruction is 0x6500
+[DEBUG] Decoding instruction: 0x6500
+[0x6XNN] Set V[5] = 0x00
+instruction is 0x6200
+[DEBUG] Decoding instruction: 0x6200
+[0x6XNN] Set V[2] = 0x00
+instruction is 0x6300
+[DEBUG] Decoding instruction: 0x6300
+[0x6XNN] Set V[3] = 0x00
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x4c02
+[DEBUG] Decoding instruction: 0x4C02
+[0x4XNN] Skip if V[12] != 0x02
+instruction is 0x227a
+[DEBUG] Decoding instruction: 0x227A
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x27A
+instruction is 0x6628
+[DEBUG] Decoding instruction: 0x6628
+[0x6XNN] Set V[6] = 0x28
+instruction is 0x670e
+[DEBUG] Decoding instruction: 0x670E
+[0x6XNN] Set V[7] = 0x0E
+instruction is 0x6428
+[DEBUG] Decoding instruction: 0x6428
+[0x6XNN] Set V[4] = 0x28
+instruction is 0x6514
+[DEBUG] Decoding instruction: 0x6514
+[0x6XNN] Set V[5] = 0x14
+instruction is 0x6200
+[DEBUG] Decoding instruction: 0x6200
+[0x6XNN] Set V[2] = 0x00
+instruction is 0x6300
+[DEBUG] Decoding instruction: 0x6300
+[0x6XNN] Set V[3] = 0x00
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x4c03
+[DEBUG] Decoding instruction: 0x4C03
+[0x4XNN] Skip if V[12] != 0x03
+instruction is 0x2288
+[DEBUG] Decoding instruction: 0x2288
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x288
+instruction is 0x6628
+[DEBUG] Decoding instruction: 0x6628
+[0x6XNN] Set V[6] = 0x28
+instruction is 0x6707
+[DEBUG] Decoding instruction: 0x6707
+[0x6XNN] Set V[7] = 0x07
+instruction is 0x6428
+[DEBUG] Decoding instruction: 0x6428
+[0x6XNN] Set V[4] = 0x28
+instruction is 0x650c
+[DEBUG] Decoding instruction: 0x650C
+[0x6XNN] Set V[5] = 0x0C
+instruction is 0x6216
+[DEBUG] Decoding instruction: 0x6216
+[0x6XNN] Set V[2] = 0x16
+instruction is 0x6311
+[DEBUG] Decoding instruction: 0x6311
+[0x6XNN] Set V[3] = 0x11
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x4c04
+[DEBUG] Decoding instruction: 0x4C04
+[0x4XNN] Skip if V[12] != 0x04
+instruction is 0x2296
+[DEBUG] Decoding instruction: 0x2296
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x296
+instruction is 0x6628
+[DEBUG] Decoding instruction: 0x6628
+[0x6XNN] Set V[6] = 0x28
+instruction is 0x6707
+[DEBUG] Decoding instruction: 0x6707
+[0x6XNN] Set V[7] = 0x07
+instruction is 0x6428
+[DEBUG] Decoding instruction: 0x6428
+[0x6XNN] Set V[4] = 0x28
+instruction is 0x650e
+[DEBUG] Decoding instruction: 0x650E
+[0x6XNN] Set V[5] = 0x0E
+instruction is 0x6216
+[DEBUG] Decoding instruction: 0x6216
+[0x6XNN] Set V[2] = 0x16
+instruction is 0x6314
+[DEBUG] Decoding instruction: 0x6314
+[0x6XNN] Set V[3] = 0x14
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0x4c05
+[DEBUG] Decoding instruction: 0x4C05
+[0x4XNN] Skip if V[12] != 0x05
+instruction is 0x22a4
+[DEBUG] Decoding instruction: 0x22A4
+[DEBUG] Set stack pointer to 0x1
+[0x2NNN] Call subroutine at 0x2A4
+instruction is 0x6628
+[DEBUG] Decoding instruction: 0x6628
+[0x6XNN] Set V[6] = 0x28
+instruction is 0x6705
+[DEBUG] Decoding instruction: 0x6705
+[0x6XNN] Set V[7] = 0x05
+instruction is 0x6428
+[DEBUG] Decoding instruction: 0x6428
+[0x6XNN] Set V[4] = 0x28
+instruction is 0x6510
+[DEBUG] Decoding instruction: 0x6510
+[0x6XNN] Set V[5] = 0x10
+instruction is 0x6216
+[DEBUG] Decoding instruction: 0x6216
+[0x6XNN] Set V[2] = 0x16
+instruction is 0x630b
+[DEBUG] Decoding instruction: 0x630B
+[0x6XNN] Set V[3] = 0x0B
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
+instruction is 0xa359
+[DEBUG] Decoding instruction: 0xA359
+[0xANNN] Set I = 0x359
+instruction is 0xd672
+[DEBUG] Decoding instruction: 0xD672
+[0xDXYN] Draw sprite at V[6], V[7], height = 2
+instruction is 0x4400
+[DEBUG] Decoding instruction: 0x4400
+[0x4XNN] Skip if V[4] != 0x00
+instruction is 0xee
+[DEBUG] Decoding instruction: 0x00EE
+[0x0NNN] System instruction: 0x0EE
+→ Return from subroutine
