@@ -105,6 +105,7 @@ impl event::EventHandler<ggez::GameError> for MainState{
         if self.chip8.display_changed{
             self.needs_redraw = true;
             self.chip8.display_changed = false;
+            self.build_display_mesh(ctx)?;
         }
 
         if self.chip8.sound_timer>0{

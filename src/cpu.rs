@@ -350,5 +350,6 @@ impl Device{
                } 
             }
         }
+        self.display_changed = true;
     }
 }
